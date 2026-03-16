@@ -6,7 +6,8 @@ Anaconda environment used to build the main notebook includes:
 * Scikit-learn
 * Pandas
 * Matplotlib
+* seaborn
 * xgboost
 * ucimlrepo
 
-conda create -n PM_project ipykernal Scikit-learn Pandas Matplotlib ucimlrepo xgboost
+conda create -n PM_project ipykernel Scikit-learn Pandas Matplotlib ucimlrepo xgboost seaborn
